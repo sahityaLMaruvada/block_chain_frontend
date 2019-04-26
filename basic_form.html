@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Charity Match</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+</head>
+<body>
+  <h1>Make a Donation</h1>
+  <form id="test" action="#" method="post">
+    <div class="form-group">
+        <label for="name">Name</label>
+        <input class="form-control" type="text" name="name" id="name" />
+    </div>
+    <div class="form-group">
+        <label for="email">Email</label>
+        <input class="form-control" type="text" name="email" id="email" />
+    </div>
+    <div class="form-group">
+        <label for="amount_donated">Donation Amount</label>
+        <input class="form-control" type="text" name="amount_donated" id="amount_donated" />
+    </div>
+    
+    <div class="form-group">
+      <label for="charity_select">Select the name of charity</label>
+      <select name="charity_select" class="form-control">
+        <option value="other" selected="selected">Other</option>
+        <option value="charity_a">Charity_a</option>
+        <option value="charity_b">Charity_b</option>
+        <option value="charity_c">Charity_c</option>
+      </select>
+      <div class="form-group">
+        <label for="match_charity">Check if you want the donation to be matched.</label>
+        <input type="checkbox" name="match_charity" value="yes"/>
+      </div>
+    </div>
+    <p>
+        <input type="submit" value="Send" class="btn btn-primary btn-block" />
+    </p>
+  </form> 
+  <pre id="output"></pre>
+</body>
+</html>
