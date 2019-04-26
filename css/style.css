@@ -15,8 +15,7 @@ form div {
     margin-bottom: 2em;
 }
 form div label, form div input {
-    display: block;
-    margin-bottom:2em;
+    margin-bottom:1em;
 }
 .box{
     color: #fff;
