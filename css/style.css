@@ -1,14 +1,22 @@
+html { 
+  background: url(../images/charity.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 body {
-  margin: 2em auto;
-  max-width: 600px;
+  margin: 5px auto;
+  max-width: 800px;
+  padding: 5em;
 }
 
 form div {
-    margin-bottom: 0.5em;
+    margin-bottom: 2em;
 }
 form div label, form div input {
     display: block;
-    margin-bottom: 0.3em;
+    margin-bottom:2em;
 }
 .box{
     color: #fff;
