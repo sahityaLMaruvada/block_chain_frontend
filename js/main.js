@@ -21,7 +21,7 @@
 					obj['charity_match'] = "0%";
 			}
 		}
-
+		obj['company'] = 'Company A'
 		return JSON.stringify( obj );
 	}
 	document.addEventListener( "DOMContentLoaded", function() {
