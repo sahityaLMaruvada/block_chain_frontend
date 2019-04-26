@@ -10,3 +10,12 @@ form div label, form div input {
     display: block;
     margin-bottom: 0.3em;
 }
+.box{
+    color: #fff;
+    padding: 20px;
+    display: none;
+    margin-top: 20px;
+}
+.charity_a{ background: #ff0000; }
+.charity_b{ background: #228B22; }
+.charity_c{ background: #0000ff; }
